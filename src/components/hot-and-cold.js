@@ -59,7 +59,7 @@ export default class HotAndCold extends React.Component {
       return;
     }
 
-    let userGuessNbr = parseInt(userGuessTxt);
+    let userGuessNbr = parseInt(userGuessTxt, 10);
     let feedback;
 
     let won = false;

@@ -6,7 +6,7 @@ export default function GameChoices(props) {
     <header>
       <div>
         <div className="left">Can you guess my number?</div>
-        <a href="#" className="button" role="button" id="new-game" onClick={props.newGame}>
+        <a href="new-game" className="button" role="button" id="new-game" onClick={props.newGame}>
           New Game
         </a>
       </div>
